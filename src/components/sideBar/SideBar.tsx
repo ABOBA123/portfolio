@@ -23,7 +23,7 @@ export const SideBar = () => {
                 </svg>
 
             </div>
-            <h1 className={activeSideBar ? "" : "display-none"}>Root</h1>
+            <h1 className={activeSideBar ? "" : "display-none"}>Tarasov Leo</h1>
             <h2 className={activeSideBar ? "job-color" : "display-none"}>Frontend-developer</h2>
             <div className="line"></div>
             <Contacts activeSideBar={activeSideBar} />

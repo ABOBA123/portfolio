@@ -17,17 +17,17 @@ export const contacts: MapToMarkupDto[] = [
     {
         image: email,
         name: "Email",
-        desc: "@gmail.com"
+        desc: "@tarasovlevworkout@gmail.com"
     },
     {
         image: website,
         name: "Website",
-        desc: "https://sports.sharix.org"
+        desc: "guessler.github.io/portfolio/"
     },
     {
         image: phone,
         name: "Phone",
-        desc: "+ 7 (000) 000 00-00"
+        desc: "+ 7 (964) 794 39-23"
     },
     {
         image: address,
@@ -40,17 +40,17 @@ export const socials: MapToMarkupDto[] = [
     {
         image: instagram,
         name: "instagram",
-        desc: "@Root"
+        desc: "@GUESSLER7"
     },
     {
         image: telegram,
         name: "telegram",
-        desc: "@Root"
+        desc: "@Guessler"
     },
     {
         image: vk,
         name: "vk",
-        desc: "@Root"
+        desc: "@absolute223"
     },
 ]
 export const languages: MapToMarkupDto[] = [

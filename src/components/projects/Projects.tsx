@@ -4,13 +4,7 @@ import banner1 from "../../assets/image 1.png";
 import banner2 from "../../assets/image 2.png";
 
 import daticyIconHeader from "../../assets/Dentistry/image 7.png";
-import daticyIconFooter from "../../assets/Dentistry/image 8.png";
-
-import resumeTopLight from "../../assets/resume/image 15.png";
-import resumeTopDark from "../../assets/resume/image 14.png";
-
-import resumeBottomLight from "../../assets/resume/image 16.png";
-import resumeBottomDark from "../../assets/resume/image 17.png";
+import daticyIconFooter from "../../assets/Dentistry/image 8.png"
 
 import mainPage from "../../assets/MindSpace/main-page.png"
 import newWorkspace from "../../assets/MindSpace/new-warkspace.png"
@@ -125,12 +119,6 @@ export const Projects = () => {
         webSiteName: 'Dentistry of Dr. Ordzhonikidze',
         link: 'https://dr-ordzhonikidze.ru/',
         clarification: "The header and footer are not particularly attractive, but they are written very well."
-      },
-      {
-        pics: [resumeTopLight, resumeTopDark, resumeBottomLight, resumeBottomDark],
-        webSiteName: 'Resume',
-        link: 'https://guessler.github.io/portfolio/',
-        clarification: "A project written in React, including information about my expertise"
       },
       {
         pics: [mainPage, newWorkspace, workspace],
