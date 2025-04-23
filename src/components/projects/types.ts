@@ -5,9 +5,10 @@ export type ProjectDto = {
     link: string
 }
 export type EducationDto = {
-    pics:  string;
+    pics:  string
     name: string
     time: string
     moreInf: string
-    link: string
+    link?: string
+    pdfLink?: string
 }

@@ -17,7 +17,7 @@ export const Project: FC<ProjectsProps> = ({ value: { pics, webSiteName, clarifi
     const [index, setIndex] = useState(0)
     const ref = useRef<HTMLDivElement>(null)
 
-    const slideWidth = 338; // Ширина каждого слайда, подставьте правильное значение
+    const slideWidth = 338;
 
     const onSlide = (toLeft?: boolean) => {
         const container = ref.current;

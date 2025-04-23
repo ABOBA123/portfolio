@@ -1,8 +1,6 @@
 import "./style.css"
 
 import icon from "../../assets/icon.png"
-// import icon from "../../assets/icon.jpg"
-// import icon from "../../assets/main-icon.jpg"
 
 import { Contacts } from "./components/Contacts"
 import { Socials } from "./components/Socials"

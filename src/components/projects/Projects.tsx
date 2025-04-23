@@ -10,6 +10,10 @@ import mainPage from "../../assets/MindSpace/main-page.png"
 import newWorkspace from "../../assets/MindSpace/new-warkspace.png"
 import workspace from "../../assets/MindSpace/workspace.png"
 
+import estateIn from "../../assets/estatein/Снимок экрана 2025-04-23 235117.png"
+import estateIn1 from "../../assets/estatein/Снимок экрана 2025-04-23 235153.png"
+import estateIn2 from "../../assets/estatein/Снимок экрана 2025-04-23 235213.png"
+
 import { Project } from "./components/Project";
 import { ProjectDto } from "./types";
 import clsx from "clsx";
@@ -58,7 +62,6 @@ export const Projects = () => {
     ref.current.scrollLeft = scrollLeft - walk;
   };
 
-  // Touch event handlers
   const handleTouchStart = (e: React.TouchEvent) => {
     if (!ref.current) return;
     const touch = e.touches[0];
@@ -123,8 +126,14 @@ export const Projects = () => {
       {
         pics: [mainPage, newWorkspace, workspace],
         webSiteName: 'MindSpace',
-        link: 'isn\'t ready yet',
+        link: 'https://github.com/Guessler/mind-space',
         clarification: "A project written in the likeness of notion"
+      },
+      {
+        pics: [estateIn, estateIn1, estateIn2],
+        webSiteName: 'estateIn',
+        link: 'https://github.com/Guessler/estatein',
+        clarification: "a project with good animations"
       },
     ]);
   }, []);

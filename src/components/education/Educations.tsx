@@ -4,6 +4,7 @@ import { Education } from "./Education"
 import kp11 from "../../assets/svg/kp-11-logo.svg"
 import w3schools from "../../assets/svg/w3schools.svg"
 import learnJs from "../../assets/favicon.png"
+import linux from "../../assets/svg/Linux.png"
 
 export const Educations = () => {
     const [data, setData] = useState<EducationDto[]>([])
@@ -16,25 +17,32 @@ export const Educations = () => {
     useEffect(() => {
         setData([
             {
-                pics: kp11,
-                name: "kp-11",
-                time: "enforced from September 2023 to present",
-                moreInf: "College of Entrepreneurship 11",
-                link: "https://kp11.mskobr.ru/"
+                pics: learnJs,
+                name: "learn js",
+                time: "April 2024",
+                moreInf: "completed the entire course",
+                link: "https://learn.javascript.ru/"
+            },
+            {
+                pics: linux,
+                name: "Astra Linux",
+                time: "April 2025",
+                moreInf: "completed the entire course",
+                pdfLink: "https://drive.google.com/file/d/1lXppo82rlZBV6O96pwqEAw9L5f6Y-3_Z/view?usp=sharing"
             },
             {
                 pics: w3schools,
                 name: "w3schools",
                 time: "April 2024",
                 moreInf: "got three certifications in Js, Bootstrap, React ",
-                link: "https://pathfinder.w3schools.com/"
+                link: "https://pathfinder.w3schools.com/",
             },
             {
-                pics: learnJs,
-                name: "learn js",
-                time: "April 2024",
-                moreInf: "completed the entire course",
-                link: "https://learn.javascript.ru/"
+                pics: kp11,
+                name: "kp-11",
+                time: "enforced from September 2023 to present",
+                moreInf: "College of Entrepreneurship 11",
+                link: "https://kp11.mskobr.ru/"
             },
         ])
     }, [])
