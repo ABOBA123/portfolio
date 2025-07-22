@@ -13,6 +13,8 @@ import workspace from "../../assets/MindSpace/workspace.png"
 import estateIn from "../../assets/estatein/Снимок экрана 2025-04-23 235117.png"
 import estateIn1 from "../../assets/estatein/Снимок экрана 2025-04-23 235153.png"
 import estateIn2 from "../../assets/estatein/Снимок экрана 2025-04-23 235213.png"
+import TinyLine from "../../assets/TinyLine.png"
+
 
 import { Project } from "./components/Project";
 import { ProjectDto } from "./types";
@@ -112,10 +114,22 @@ export const Projects = () => {
   useEffect(() => {
     setData([
       {
+        pics: [estateIn, estateIn1, estateIn2],
+        webSiteName: 'estateIn',
+        link: 'https://estatein.tl.bibizyana.ru/',
+        clarification: "a project with good animations"
+      },
+      {
         pics: [banner1, banner2],
         webSiteName: 'Sharix Sport Friend',
         link: 'https://guessler.github.io/SportFriend/',
         clarification: "A good, and most importantly quality multi-page project written in HTML, CSS and JS."
+      },
+      {
+        pics: [TinyLine],
+        webSiteName: 'TinyLine',
+        link: 'https://github.com/Guessler/Messenger-frontend',
+        clarification: "Chat app with auth and real-time messaging. Built with React, TypeScript, Material UI, JWT Auth. "
       },
       {
         pics: [daticyIconHeader, daticyIconFooter],
@@ -128,12 +142,6 @@ export const Projects = () => {
         webSiteName: 'MindSpace',
         link: 'https://github.com/Guessler/mind-space',
         clarification: "A project written in the likeness of notion"
-      },
-      {
-        pics: [estateIn, estateIn1, estateIn2],
-        webSiteName: 'estateIn',
-        link: 'https://github.com/Guessler/estatein',
-        clarification: "a project with good animations"
       },
     ]);
   }, []);

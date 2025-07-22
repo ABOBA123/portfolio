@@ -33,6 +33,7 @@ export const Contacts: FC<PropsMarkup> = ({ activeSideBar }) => {
                         <a className="name-props">{item.desc}</a>
                     </div>
                 }
+                link={item.link}
                 hideRight={!activeSideBar}
                 contanerStyles={clsx(!activeSideBar && "justify-center")}
             />

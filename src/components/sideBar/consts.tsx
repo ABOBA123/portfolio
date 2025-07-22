@@ -5,9 +5,10 @@ import website from "../../assets/svg/website.svg"
 import phone from "../../assets/svg/phone.svg"
 import address from "../../assets/svg/Address.svg"
 
-import instagram from "../../assets/svg/Instagram.svg"
 import telegram from "../../assets/svg/telegram.svg"
 import vk from "../../assets/svg/vk.svg"
+
+import gitIcon from "../../assets/gitIcon.png"
 
 import Russia from "../../assets/svg/Russia.svg"
 import greatBritain from "../../assets/svg/greatBritain.svg"
@@ -17,12 +18,14 @@ export const contacts: MapToMarkupDto[] = [
     {
         image: email,
         name: "Email",
-        desc: "@tarasovlevworkout@gmail.com"
+        desc: "tlfwrk803@gmail.com",
+        link: "https://mail.google.com/mail/u/0/#inbox?compose=new&to=tlfwrk803@gmail.com"
     },
     {
         image: website,
         name: "Website",
-        desc: "guessler.github.io/portfolio/"
+        desc: "https://drive.google.com",
+        link: "https://drive.google.com/file/d/1Z8cd3YdbUjyVFyxrCHDKutXXz66zzgDS/view?usp=drive_link"
     },
     {
         image: phone,
@@ -38,19 +41,22 @@ export const contacts: MapToMarkupDto[] = [
 
 export const socials: MapToMarkupDto[] = [
     {
-        image: instagram,
-        name: "instagram",
-        desc: "@GUESSLER7"
+        image: gitIcon,
+        name: "git hub",
+        desc: "https://github.com/Guessler",
+        link: "https://github.com/Guessler"
     },
     {
         image: telegram,
         name: "telegram",
-        desc: "@Guessler"
+        desc: "@tlfwrk",
+        link: "https://t.me/tlfwrk "
     },
     {
         image: vk,
         name: "vk",
-        desc: "@absolute223"
+        desc: "@absolute223",
+        link: "https://vk.com/absolute223 "
     },
 ]
 export const languages: MapToMarkupDto[] = [

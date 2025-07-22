@@ -3,6 +3,7 @@ export type MapToMarkupDto = {
     image: string;
     name: string;
     desc: string;
+    link?: string
 }
 
 export type ThemeTypes = "ligth" | "dark"

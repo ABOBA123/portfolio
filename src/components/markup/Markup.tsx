@@ -6,15 +6,16 @@ interface MarkupProps {
     rightRender: ReactNode;
     hideRight?: boolean;
     contanerStyles?: string;
+    link?: string
 }
 
-export const Markup: FC<MarkupProps> = ({leftRender, rightRender, hideRight,contanerStyles}) => (
-    <div className={clsx("information-container", contanerStyles)}>
+export const Markup: FC<MarkupProps> = ({leftRender, rightRender, hideRight,contanerStyles, link}) => (
+    <a className={clsx("information-container", contanerStyles)} target="_blank" href={link}>
         <div className="main-circle ">
             {leftRender}
         </div>
         <div className={hideRight ? "display-none" :"information-indent"}>
             {rightRender}
         </div>
-    </div>
+    </a>
 )

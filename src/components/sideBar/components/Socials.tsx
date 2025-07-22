@@ -19,7 +19,7 @@ export const Socials:FC<SocialProps> = ({ activeSideBar }) => {
                 key={item.name}
                 leftRender={
                     <div className="main-circle">
-                        <img src={item.image} alt={item.image} />
+                        <img className="social-image" src={item.image} alt={item.image} />
                     </div>
                 }
                 rightRender={
@@ -28,6 +28,7 @@ export const Socials:FC<SocialProps> = ({ activeSideBar }) => {
                         <a className="name-props">{item.desc}</a>
                     </div>
                 }
+                link={item.link}
                 hideRight={!activeSideBar}
                 contanerStyles={clsx(!activeSideBar && "justify-center")}
             />
