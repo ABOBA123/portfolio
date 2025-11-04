@@ -13,6 +13,8 @@ import gitIcon from "../../assets/gitIcon.png"
 import Russia from "../../assets/svg/Russia.svg"
 import greatBritain from "../../assets/svg/greatBritain.svg"
 
+import Neza from "../../assets/Logo Независимость(2) 1.svg"
+
 import ShariXLogo from "../../assets/svg/big-sharix 1.svg" 
 export const contacts: MapToMarkupDto[] = [
     {
@@ -73,8 +75,14 @@ export const languages: MapToMarkupDto[] = [
 ]
 export const experience: MapToMarkupDto = {
         image: ShariXLogo,
-        name: "Frontend developer",
+        name: "trainee",
         desc: "ShariX"
+}
+
+export const experienceNeza: MapToMarkupDto = {
+    image: Neza,
+    name: "Frontend developer",
+    desc: "Независимость"
 }
 
 export const anotherInformation: MapToMarkupDto[] = [
